@@ -22,6 +22,7 @@
     "url": "https://github.com/siddrc/protegrity-api"
   },
   "engine": {
-    "node": "9.11.1"
+    "node": "9.11.1",
+    "npm": "5.8.0"
   }
 }
