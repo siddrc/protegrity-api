@@ -11,7 +11,8 @@ const bodyParser = require("body-parser");
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }));
-app.listen(3100);
+const PORT = process.env.PORT || 3100
+app.listen(PORT);
 app.use('/', express.static(__dirname + '/public'));
 app.use('/', HomePageRouteHandler.getRouter());
 app.use('/users', UserManagementRouteHandler.getRouter());
