@@ -1,6 +1,6 @@
 {
 
-   "dbUrl" : "mongodb://localhost:27017",
-   "databaseName" : "protegrityUserManagementDB"
+    "dbUrl": "mongodb://protegritydbuser:abfbf639c7a07eb053cddf6fa5f6a427a66d151fd2219a8c@ds229468.mlab.com:29468/protegritydb",
+    "databaseName": "protegritydb"
 
 }
