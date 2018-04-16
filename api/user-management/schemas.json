@@ -1,0 +1,37 @@
+{
+    "userManagementSchema":
+    {
+        "createSchema":
+        {
+            "type": "object",
+            "required": ["name", "age"],
+            "properties":
+            {
+                "name":
+                {
+                    "type": "string",
+                    "maxLength": 10
+                },
+                "age":
+                {
+                    "description": "positive integer or string of digits",
+                    "type": ["string", "integer"],
+                    "pattern": "^[1-9][0-9]*$",
+                    "maxLength": 2
+                }
+            }
+        },
+        "readSchema":
+        {
+
+        },
+        "updateSchema":
+        {
+
+        },
+        "deleteSchema":
+        {
+
+        }
+    }
+}
